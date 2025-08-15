@@ -1,6 +1,6 @@
-import { Tabs } from 'expo-router';
-import "@/global.css";
 import { GluestackUIProvider } from "@/components/ui/gluestack-ui-provider";
+import "@/global.css";
+import { Tabs } from 'expo-router';
 import { Platform } from 'react-native';
 
 import { HapticTab } from '@/components/HapticTab';
@@ -27,6 +27,12 @@ export default function TabLayout() {
             default: {},
           }),
         }}>
+        <Tabs.Screen
+          name="initial"
+          options={{
+            title: 'Start',
+            tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          }}/>
         <Tabs.Screen
           name="home"
           options={{
