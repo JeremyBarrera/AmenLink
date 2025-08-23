@@ -17,10 +17,10 @@
     "**/*.jsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "app/home.jsx",
-    "app/attendance.jsx",
-    "app/_layout.jsx",
-    "app/+not-found.jsx",
+    "Frontend/home.jsx",
+    "Frontend/attendance.jsx",
+    "Frontend/_layout.jsx",
+    "Frontend/+not-found.jsx",
     "nativewind-env.d.ts"
   ]
 }
